@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.lightBox-mask
+{
+
+    width: 100%;
+    height: 100%;
+	position: fixed;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.lightBox-popup{
+	color: #fff;
+	z-index: 1001;
+}
+
